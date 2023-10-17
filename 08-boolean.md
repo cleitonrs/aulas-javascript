@@ -50,3 +50,25 @@ console.log(name > 'belinha') -> true / Como a letra **c** bem depois da **b**, 
 console.log(name > 'Cleiton') -> true / Uma letra **minúscula** é maior que uma letra **maiúscula** no javascript.
 
 console.log(name > 'Belinha') -> true
+
+##
+**'igual a' e 'diferente de'**
+
+console.log(age == 31) -> true
+
+console.log(age == '31') -> true / toda vêz que um duplo sinal de igual ou um sinal de exclamação seguido de um sinal de igual são usados, ambos executam conversão de tipos.
+
+console.log(age != 31) -> false
+
+console.log(age != '31') -> false
+
+##
+**'igual a, e do mesmo tipo' e 'diferente de, e do mesmo tipo'(comparação estrita)**
+
+console.log(age === 31) -> true
+
+console.log(age === '31') -> false 
+
+console.log(age !== 31) -> false
+
+console.log(age !== '31') -> true
