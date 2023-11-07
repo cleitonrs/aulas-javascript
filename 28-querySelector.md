@@ -18,8 +18,9 @@
     <p class="error">Essa é uma mensagem de erro</p>
   </div>
 
-  <div class="error">Essa é outra mensagem de erro</p>
+  <div class="error">Essa é outra mensagem de erro</div>
 
+  <script scr="./app.js"></script>
 </body>
 </html>
 ~~~
