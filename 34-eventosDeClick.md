@@ -66,7 +66,7 @@ lis.forEach(li => {
 
 No browser quando um evento acontece, dentro da função de callback, ele disponibiliza automaticamente um objeto no parâmetro dessa função. A gente vai chamar esse objeto recebido no parâmetro de **event**. Esse objeto contém informações sobre o evento que aconteceu. Se dentro do console.log a gente passar o **event** e clicar na **li**, veremos na saído do console um objeto *MouseEvent* com várias propriedades disponíveis.
 
-Para descobrir em qual elemento o evento aconteceu, usamos a propriedade **target**, ou seja a **target** armazena a referência do elemento em o evento ocorreu.
+Para descobrir em qual elemento o evento aconteceu, usamos a propriedade **target**, ou seja a **target** armazena a referência do elemento em que o evento ocorreu.
 
 ~~~
 lis.forEach(li => {
