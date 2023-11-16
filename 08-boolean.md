@@ -43,9 +43,9 @@ const name = 'cleiton'
 
 console.log(name == 'cleiton') -> true
 
-console.log(name = 'Cleiton') -> false
+console.log(name == 'Cleiton') -> false
 
-console.log(name > 'belinha') -> true / Como a letra **c** bem depois da **b**, então é maior, pois as últimas letras do alfabeto são maiores que as primeiras letras de alfabeto.
+console.log(name > 'belinha') -> true / Como a letra **c** vem depois da **b**, então é maior, pois as últimas letras do alfabeto são maiores que as primeiras letras de alfabeto.
 
 console.log(name > 'Cleiton') -> true / Uma letra **minúscula** é maior que uma letra **maiúscula** no javascript.
 
