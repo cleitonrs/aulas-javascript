@@ -57,7 +57,7 @@ Saída no console -> Oi, Cleiton Santos
 
 ## Retornando valores
 
-O **return** serve para retornar o valor o valor da função, sendo assim o seu valor não ficará preso no escopo da função.
+O **return** serve para retornar o valor da função, sendo assim o seu valor não ficará preso no escopo da função.
 ~~~
 const double = function (number) {
   return number * 2

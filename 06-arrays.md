@@ -38,7 +38,7 @@ console.log(moreHeroes) -> ['Batman', 'Superman', 'Iron Man', 'CatWoman', 'Wolve
 ~~~
 
 ##
-O método **push()** além de adicionar itens no array, retorna o nove número de itens que tem no array. O método **push()** causa mutabilidade no array, ou seja, ele modifica o valor do array original.
+O método **push()** além de adicionar itens no array, retorna o novo número de itens que tem no array. O método **push()** causa mutabilidade no array, ou seja, ele modifica o valor do array original.
 
 ~~~
 const pushToHeroes = heroes.push('Cyclops', 'Hulk')

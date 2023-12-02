@@ -6,7 +6,7 @@ A **continue** pula uma iteração em particular, e faz o loop continuar a ser e
 ~~~
 const scores = [50, 25, 0, 30, 100, 20, 10]
 
-for (let i = 0; i < scores.length; i++>) {
+for (let i = 0; i < scores.length; i++) {
   if (scores[i] === 0) {
     continue
   }

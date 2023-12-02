@@ -65,4 +65,4 @@ const saleProducts = products.map(product => {
 })
 ~~~
 
-O código acima da forma que foi escrito, irá alterar o array original. 
+O código acima da forma que foi escrito, irá alterar o array original.

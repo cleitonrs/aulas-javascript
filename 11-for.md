@@ -27,7 +27,7 @@ Loop concluído
 ~~~
 const names = ['Linus', 'Ada', 'Bill']
 
-for (let i; i < name.length; i++) {
+for (let i = 0; i < name.length; i++) {
   const HTMLTemplate = `<p>${names[i]}</p>`
   console.log(HTMLTemplate)
 }
