@@ -48,7 +48,7 @@ console.log(paragraphs) -> NodeList(3) [p, p, p.error]
 console.log(paragraphs[0]) -> a saída será a referência do primeiro parágrafo da nossa página -> <p>Hello world!</p>
 ~~~
 
-E da mesma for que um array, um NodeList pode ser percorrido por um **forEach()**
+E da mesma forma que um array, um NodeList pode ser percorrido por um **forEach()**
 
 ~~~
 paragraphs.forEach(paragraph => {

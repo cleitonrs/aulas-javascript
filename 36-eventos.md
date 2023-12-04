@@ -84,7 +84,7 @@ button.addEventListener('click', () => {
 const lis = document.querySelectorAll('li')
 
 lis.forEach(li => {
-  li.addEventListener('click', event =. {
+  li.addEventListener('click', event => {
     const clickedElement = event.target
     console.log('Clicou na LI')
     clickedElement.remove()
@@ -116,7 +116,7 @@ button.addEventListener('click', () => {
 const lis = document.querySelectorAll('li')
 
 lis.forEach(li => {
-  li.addEventListener('click', event =. {
+  li.addEventListener('click', event => {
     const clickedElement = event.target
     console.log('Clicou na LI')
 
