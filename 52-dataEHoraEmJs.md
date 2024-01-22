@@ -42,7 +42,7 @@ console.log('timestamp:', present.getTime()) -> 1704377418695
 ~~~
 
 ~~~
-console.log('toDateString():', present.toDateString()) -> Thu Jan 04 2024
+console.log('toDateString:', present.toDateString()) -> Thu Jan 04 2024
 console.log('toTimeString:', present.toTimeString()) -> 11:10:18 GMT-0300 (Horário Padrão de Brasília)
 console.log('toLocaleString:', present.toLocaleString()) -> 04/01/2024, 11:10:18
 ~~~
