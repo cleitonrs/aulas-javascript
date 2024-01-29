@@ -25,7 +25,7 @@ Agora que checamos se o estado de request é igual a 4, para termos certeza que 
 const request = new XMLHttpRequest()
 
 request.addEventListener('readystatechange', () => {
-  if (readyState === 4 && request.status === 200) {
+  if (request.readyState === 4 && request.status === 200) {
     console.log(request.responseText)
   }
 })
