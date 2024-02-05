@@ -8,7 +8,7 @@ Precisamos converter a string JSON em um objeto javascript, para podermos acessa
 
 O javascript possui um objeto embutido chamado JSON, o qual possui um método chamado **parse()**. O **parse** recebe como argumento um string JSON e converte esse JSON para um array de objetos
 
-```
+~~~
 const getTodos = callback => {
 
   const request = new XMLHttpRequest()
@@ -46,6 +46,6 @@ getTodos((error, data) => {
 
 console.log(3)
 console.log(4)
-```
+~~~
 
 Na hora de se criar um JSON, a principal diferença entre um objeto javascript é que todas as propriedades precisam estar entre a abertura e fechamento de **aspas duplas**.
