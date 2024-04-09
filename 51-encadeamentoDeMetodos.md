@@ -22,6 +22,6 @@ console.log(booksOnSale) -> [
 
 ~~~
 
-Quando usamos o encadeamento de métodos, podemos usar um convenção para formatar esse encadeamento de métodos, onde cada método fica em uma linha com uma indentação.
+Quando usamos o encadeamento de métodos, podemos usar uma convenção para formatar esse encadeamento de métodos, onde cada método fica em uma linha com uma indentação.
 
-A técnica de encadeamento de métodos não exclusiva de métodos de  arrays, ela pode ser aplicada em strings também. A única condição é a de que o método que seja encadeado, funcione no valor que foi retornado pelo método anterior.
+A técnica de encadeamento de métodos não é exclusiva de métodos de arrays, ela pode ser aplicada em strings também. A única condição é a de que o método que seja encadeado, funcione no valor que foi retornado pelo método anterior.
