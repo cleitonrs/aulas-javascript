@@ -34,4 +34,4 @@ request.open('GET', 'https://jsonplaceholder.typicode.com/todoss')
 request.send()
 ~~~
 
-No código acima, só será exibido um aviso com status code 404, informando que o servidor não conseguiu encontrar a página deseja. Isso acontece devido ao erro do endpoint que conta com um caractere a mais em *todos* e o bloco do if não será executado pois o status code não é 200. 
+No código acima, só será exibido um aviso com status code 404, informando que o servidor não conseguiu encontrar a página desejada. Isso acontece devido ao erro do endpoint que conta com um caractere a mais em *todos* e o bloco do if não será executado pois o status code não é 200. 
