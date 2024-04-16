@@ -6,7 +6,7 @@ Ele precisa ser string porque, quando um browser troca informações com um serv
 
 Precisamos converter a string JSON em um objeto javascript, para podermos acessar esses objetos e fazer alguma coisa com eles.
 
-O javascript possui um objeto embutido chamado JSON, o qual possui um método chamado **parse()**. O **parse** recebe como argumento um string JSON e converte esse JSON para um array de objetos
+O javascript possui um objeto embutido chamado JSON, o qual possui um método chamado **parse()**. O **parse** recebe como argumento uma string JSON e converte esse JSON para um array de objetos
 
 ~~~
 const getTodos = callback => {
