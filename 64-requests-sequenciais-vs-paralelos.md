@@ -2,7 +2,7 @@
 
 Diferenças importantes entre requests paralelos vs requests sequenciais.
 
-No código abaixo temos um exemplo de um requests sequenciais, ou seja, a segunda requisição só vai acontecer, depois que a Promise resolvida ou rejeitada, da primeira requisição do *fetch* for obtida e a expressão que resulta no valor da Promise, que é o objeto request, for atribuída pra const bulbasaur. Lembrando que o *awit* pausa a execução das linhas abaixo dele enquanto a Promise não for resolvida ou rejeitada.
+No código abaixo temos um exemplo de requests sequenciais, ou seja, a segunda requisição só vai acontecer, depois que a Promise resolvida ou rejeitada, da primeira requisição do *fetch* for obtida e a expressão que resulta no valor da Promise, que é o objeto request, for atribuída pra const bulbasaur. Lembrando que o *awit* pausa a execução das linhas abaixo dele enquanto a Promise não for resolvida ou rejeitada.
 
 Mas como os requests do código abaixo não dependem de informações dos outros requests, eles não precisam ser sequenciais, pois eles são independentes entre si, sem ralação alguma.
 
