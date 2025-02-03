@@ -1,7 +1,7 @@
 ## Classes
 
 Quando precisamos criar vários objetos que contém as mesmas características usamos a palavra chave *class*.
-Uma classe é a planta de um objeto, ou seja, um modelo que descreve quais vão ser a propriedades básicas de um objeto.
+Uma classe é a planta de um objeto, ou seja, um modelo que descreve quais vão ser as propriedades básicas de um objeto.
 
 Em javascript uma classe nada mais é do que um tipo de construtor. E o construtor por sua vêz é uma função.
 
@@ -9,7 +9,7 @@ A primeira letra do nome da classe sempre será maiúscula por convenção, para
 
 Dentro da classe precisamos declarar o método *constructor*, ele é o responsável por setar as propriedades do objeto.
 
-O operador **new** é usado para que um novo objeto seja criado. Ele também é responsável para que dentro da classe o *this* referencie o novo objeto que tá sendo criado. Com isso toda vêz que usamos a palavra chave *this* dentro da classe, ele corresponde ao novo objeto que está sendo criado.
+O operador **new** é usado para que um novo objeto seja criado. Ele também é responsável para que dentro da classe o *this* referencie o novo objeto que está sendo criado. Com isso toda vêz que usamos a palavra chave *this* dentro da classe, ele corresponde ao novo objeto que está sendo criado.
 O **new** também é o responsável por invocar o método *constructor* para construir o objeto que está sendo criado.
 
 ```
