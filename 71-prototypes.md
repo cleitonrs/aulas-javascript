@@ -1,6 +1,6 @@
 ## Prototypes
 
-Em javascript todo novo objeto criado, herda propriedades e métodos do seu *prototype* ou protótipo
+Em javascript todo novo objeto criado, herda propriedades e métodos do seu *prototype* ou protótipo.
 O *prototype* é o objeto do qual o novo objeto criado herda propriedades e métodos.
 
 Cada tipo de objeto em javascript tem um *prototype*. Ele é um objeto único, nativo da linguagem, que é só referenciado quando se cria um novo objeto. 
@@ -15,7 +15,7 @@ Student.prototype.login = function login () {
   return `${this.name} fez login`
 }
 
-const pedroPaulo = new Student('Pedra Paulo', 'pp@gmail.com')
+const pedroPaulo = new Student('Pedro Paulo', 'pp@gmail.com')
 const mariaAtila = new Student('Maria Atila', 'atilamaria@gmai.com')
 
 console.log(pedroPaulo.login()) -> Pedro Paulo fez login
@@ -37,4 +37,4 @@ Student.formatToDatabase = function formatToDatabase (aString) {
 
 console.log(Student.formatToDatabase('string para o banco de dados')) -> STRING_PARA_O_BANCO_DE_DADOS
 
-```
+``` 
